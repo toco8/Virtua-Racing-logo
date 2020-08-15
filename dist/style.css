@@ -1,0 +1,62 @@
+body {
+  background: #5000a0;
+  color: white;
+  font-family: "Helvetica Neue", "Neue Haas Grotesk", Helvetica;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+  position: relative;
+}
+
+.background-text {
+  display: inline-block;
+  font-size: 256px;
+}
+
+.title {
+  color: #fd0000;
+  font-size: 81px;
+  -webkit-text-stroke: 2px #261411;
+  text-shadow: 5px 5px 0px #251714;
+}
+
+.logo span {
+  position: absolute;
+}
+
+.text-gradation {
+  background: linear-gradient(
+    #ff0000 0%,
+    #ffff00 40%,
+    #fff 52%,
+    #00359f 50%,
+    #0075c5 65%,
+    #fff 77%
+  );
+  -webkit-text-stroke: 4px #231815;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.overwrapped-text-top {
+  top: 50%;
+  left: 50%;
+  transform: translate(-89%, -95%);
+}
+
+.overwrapped-text-middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-33%, -10%);
+}
+
+.overwrapped-text-bottom {
+  font-size: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(900%, 210%);
+}
